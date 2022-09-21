@@ -1,8 +1,8 @@
-{ ps-pkgs, ... }:
-with ps-pkgs; {
+{ ps-pkgs-ns, ... }:
+with ps-pkgs-ns.lovelaceAcademy; {
   dependencies = [
     arrays
-    ps-pkgs."assert"
+    ps-pkgs-ns.lovelaceAcademy."assert"
     console
     effect
     lazy
