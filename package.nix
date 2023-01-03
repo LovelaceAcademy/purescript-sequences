@@ -2,7 +2,7 @@
 with ps-pkgs; {
   dependencies = [
     arrays
-    ps-pkgs-ns.lovelaceAcademy."assert"
+    ps-pkgs."assert"
     console
     effect
     lazy
